@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background-color: #eee8e1;
+  
+}
+
+
+/* todas as listas da pág */
+ul {
+  list-style: none;
+
+} 
+.navegação a{
+  text-decoration: none;
+  color: rgb(15, 20, 25);  
+  line-height: 36px;
+  text-align: center;
+  display: flex; 
+  border: 5px ;
+  
+}
+ .navegação a:hover{
+  background-color: rgba(15, 25, 20, 0.1);
+  font: bold;
+  border-radius:16px ;
+  border: 5px ;
+}
+
+.estatisticas a{
+  text-decoration: none;
+  color:  rgb(83, 100, 113);
+  font: bold;
+}
+.estatisticas span{
+  color: rgb(15, 20, 25);
+}
+.estatisticas p:hover{
+
+  color: rgb(15, 20, 25);
+  font: bold;
+  text-decoration: underline;
+}
+/* ações no tzeet */
+.acao a{
+  text-decoration: none;
+  color: rgb(83, 100, 113);
+  font: bold;
+  border-radius:16px ;
+}
+
+.acao a:hover{
+background-color: rgba(29, 155, 240, 0.1);
+text-decoration: underline;
+}
+.acao .tzeets:hover{
+  color: rgb(15, 20, 25);
+  font: bold;
+  border-radius:16px ;
+}
+.acao .tr:hover{
+  color: rgb(15, 20, 25);
+  font: bold;
+  border-radius:16px ;
+}
+.acao .media:hover{
+  color: rgb(15, 20, 25);
+  font: bold;
+}
+.acao .link:hover{
+  color: rgb(15, 20, 25);
+  font: bold;
+}
+.acao .rs:hover{
+  background-color: rgba(29, 155, 240, 0.1);
+ color: rgba(29, 155, 240, 1);
+}
+.acao .rtzeet:hover{
+   background-color: rgba(0, 186, 124, 0.1);
+  color: rgba(0, 186, 124, 1);
+}
+.acao .like:hover{  
+  background-color: rgba(249, 24, 128, 0.1);
+  color: rgba(249, 24, 128, 1);
+}
+
+/* nome perfil e @ */
+.name h6{
+  color:rgb(15, 20, 25);
+}
+
+.name span{
+  color: rgb(83, 100, 113);
+}
+
+.perfil p{
+  color: rgb(15, 20, 25);
+}
+.localizacao.data_de_entrada{
+   color: rgb(83, 100, 113);
+}
+.data{
+  color: rgb(83, 100, 113);
+}
+h6{
+   color:rgb(15, 20, 25);
+}
+/* O nome completo do usuário deve possuir a cor rgb(15, 20, 25) ok
+O nome do usuário do Tzeet, iniciado com um @, deve possuir a cor rgb(83, 100, 113) ok
+A descrição do biografia do usuário deve possuir a cor rgb(15, 20, 25)
+A localização e a data de ingresso do usuário na rede devem possuir a cor rgb(83, 100, 113)
+O conteúdo de cada Tzeet:
+O nome completo do usuário, o nome do usuário iniciado com @ devem seguir as regras acima
+A cor da data do tzeet deve ser rgb(83, 100, 113)
+A cor do texto do conteúdo do tzeet deve ser rgb(15, 20, 25) */
